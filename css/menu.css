@@ -1,0 +1,94 @@
+body
+{
+	background-image: url('/img/bg.png');
+	background-size: 100% 100%;
+	color: white;
+}
+
+.main {
+	padding: 2rem !important;
+	padding-top: 0 !important;
+	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+}
+
+h1 {
+	padding: 2rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	font-size: 4rem;
+}
+
+h2 {
+	margin: 0 !important;
+	padding: 0;
+	text-align: right !important;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 0.2rem;
+	font-size: 1.75rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: rgba(255,255,255,0.85);
+}
+
+nav {
+	text-align: right;
+}
+
+nav a {
+	display: block;
+	text-align: right;
+	font-size: 1.25rem;
+	display: block;
+	text-decoration: none;
+	padding: 1rem 1.5rem;
+	color: white;
+	background-color: rgba(255,255,255,0.6);
+	color: PURPLE;
+	font-weight: 600;	
+	margin: 1rem 0;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	opacity: 0.8;
+	font-size: 1.15rem;	
+}
+
+nav a:nth-child(1)
+{
+	width: 80%;
+	margin-left: 20%;
+}
+
+nav a:nth-child(2)
+{
+	width: 70%;
+	margin-left: 30%;
+}
+
+nav a:nth-child(3)
+{
+	width: 60%;
+	margin-left: 40%;
+}
+
+#logout {
+	position: fixed;
+	bottom: 0;
+	/*background-color: white;*/
+	/*color: red;*/
+	background-color: rgba(255,255,255,0.1);
+	color: rgba(255,255,255,0.85);
+	width: 100%;
+	padding: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: 300;
+	letter-spacing: 0.1rem;	
+	font-family: "Oswald", sans-serif;
+}
+
+#cancel {
+
+}

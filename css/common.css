@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Roboto+Condensed:300,300i,400,400i,700,700i');	
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #FAFAFA;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Oswald", sans-serif !important;
+	text-align: center !important;
+	margin: 0 !important;
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.85);
+}
+
+h1 span {
+	font-size: 0.5em;, h4
+	color: white;
+	display: inline-block;
+	height: 2em;
+	position: relative;
+	top: -1.1em;
+	left: -0.35rem;
+}
+
+#topbar {
+	height: 4rem;
+	width: 100%;
+	position: fixed;
+	background-image: url('/img/menu.png');
+	background-size: 100% 100%;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+#topbar h1 {
+	position: relative;
+	top: 0.1rem;
+}
+
+.topbar-button {
+	width: 4rem;
+	height: 4rem;
+	position: fixed;
+	top: 0;
+}
+
+#menu-hamburger {
+	left: 0;
+}
+
+#topbar-points {
+	right: 0;
+	text-align: right;
+	padding: 1.425rem;
+	padding-right: 0.5rem;
+	font-size: 1.15rem;
+	width: 12rem;
+	color: rgba(255,255,255,0.85);
+}
+
+#topbar-points > * {
+	vertical-align: middle;
+}
+
+#menu-hamburger i {
+	color: rgba(255,255,255,0.85);
+	font-size: 2.5rem;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 0.75rem;
+}
+
+.main {
+	padding-top: 4rem;
+}

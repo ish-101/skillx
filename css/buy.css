@@ -1,0 +1,47 @@
+h2 {
+	margin: 2rem !important;
+	margin-bottom: 0 !important;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	opacity: 0.85; 
+}
+
+.offer {
+	margin: 2rem;
+	width: calc(100% - 4rem);
+	border-radius: 1rem;
+	background-image: url('/img/buy.png');
+	background-size: 100% 100%;
+	padding: 1rem;
+	display: block;
+	color: white;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.offer > * {
+	display: inline-block;
+	width: 50%;
+}
+
+.offer-point {
+	text-align: right;
+}
+
+.offer > * > * {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.75rem;
+}
+
+.offer i {
+	font-size: 3rem;
+	width: 2rem;
+}
+
+.offer-dollar-number {
+	padding-left: 0.5rem;
+}
+
+.offer-point-icon {
+	padding-right: 1rem;
+}

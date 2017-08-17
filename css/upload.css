@@ -1,0 +1,98 @@
+.main {
+	padding: 2rem;
+	padding-top: 5rem;
+}
+
+h2 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.85);
+	margin: 1rem !important;
+}
+
+label
+{
+	display: block;
+	font-size: 1.75rem;
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+}
+
+select {
+	margin: 0.5rem 0;
+	padding: 0.5rem;
+	width: 100%;
+	font-size: 	1.25rem;
+	font-family: "Roboto Condensed", sans-serif;
+	outline: none;
+	border: solid 1px rgba(0,0,0,0.4);
+}
+
+input {
+	width: 100%;
+	outline: none;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	border: solid 1px rgba(0,0,0,0.4);
+}
+
+#video {
+	margin-top: 4rem;
+}
+
+#video, #thumb {
+	width: 50%;
+	margin: 1rem calc(50% - 25vw + 1rem);
+	height: calc(50vw - 2rem);
+	outline: none;
+	border: solid medium rgba(0,0,0,0.85);
+	color: rgba(0,0,0,0.85);
+	border-radius: 100%;
+	background-color: transparent;
+	padding: calc(25vw - 2rem - 2.5rem) 0;
+}
+
+#video > * , #thumb > *{
+	display: block;
+	text-align: center;
+}
+
+#video i, #thumb i{
+	font-size: 4rem;
+}
+
+#video span, #thumb span{
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5rem;
+}
+
+#video-input, #thumb-input{
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	height: calc(50vw - 2rem);
+	width: calc(50vw - 2rem);
+	position: relative;
+	top: calc(-50vw + 1rem);
+	left: calc(25vw - 1rem);
+	opacity: 0;
+}
+
+#thumb {
+	position: relative;
+	/*top: calc(-50vw);*/
+}
+
+#thumb-input {
+	/*top: calc(-100vw);*/
+}
+
+.big-button-container {
+	height: calc(50vw);
+	overflow: hidden;
+}
+
+.file-selected {
+	color: green !important;
+	border: solid medium green !important;
+}

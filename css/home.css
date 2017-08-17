@@ -1,0 +1,109 @@
+body {
+	background-color: black;
+	background-image: url('/img/bg.png');
+	color: rgba(255,255,255,0.85);
+	position: relative;
+}
+
+#home-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#home-main {
+	padding: 2rem;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+}
+
+#home-title {
+	font-size: 4rem;
+	margin: 0;
+	padding-bottom: 3rem;
+}
+
+#login {
+	width: 100%;
+}
+
+.login-input {
+	background-color: rgba(255,255,255,0.2);
+	height: 3rem;
+	border-radius: 1.5rem;
+	overflow: hidden;
+}
+
+#email-box {
+	margin-bottom: 1rem;
+}
+
+
+.login-input > * {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.login-input-text{
+	width: calc(100% - 5rem);
+}
+
+.login-input-text input {
+	height: 100%;
+	outline: none;
+	border: 0;
+	width: 100%;
+	height: 3rem;
+	display: block;
+	background-color: transparent;
+	padding: 1rem;
+	color: rgba(255,255,255,0.85);
+	/*font-weight: 700;*/
+	font-size: 1.15rem;
+}
+
+.login-input-text input::placeholder {
+	color: rgba(255,255,255,0.6);
+}
+
+.login-input-logo {
+	width: 2.75rem;
+	height: 3rem;
+}
+
+.login-input-logo i{
+	font-size: 2rem;
+	position: relative;
+	left: 1rem;
+	top: 0.5rem;
+}
+
+#submit {
+	background-color: transparent;
+	border: 0;
+	margin: 2rem 0;
+	padding: 0.75rem;
+	width: 100%;
+	font-size: 1.15rem;
+	border: solid medium white;
+	border-radius: 1.5rem;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#message {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	padding: 1rem;
+	display: block;
+	font-size: 1.15rem;
+	color: rgba(255,0,0,0.85);
+	background-color: white;
+	font-weight: bold;
+}
